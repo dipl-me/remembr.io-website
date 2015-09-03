@@ -62,13 +62,13 @@ h4 {
 }
 
 a {
-  color: #f56363;
+  color: #38b872;
   transition: all 0.3s ease-in-out;
 }
 
 a:hover,
 a:focus {
-  color: #fa5454;
+  color: #38b872;
   text-decoration: none;
 }
 
