@@ -478,12 +478,12 @@ transform:translateY(0);
 }
 
 .price {
-  background-color: #43c5b8;
+  background-color: #3cb771;
   color: #fff;
 }
 
 .price-amount {
-  font-size: 110px;
+  font-size: 90px;
   line-height: 1;
 }
 

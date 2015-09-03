@@ -41,14 +41,16 @@
             <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
                 <ul class="nav navbar-nav nav-left">
                     <li><a href="#features">Features</a></li>
-                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#online">Online app</a></li>
+                    <li><a href="#server">Server</a></li>
                     <li><a href="#pricing">Pricing</a></li>
-                    <li><a href="#team">Team</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="https://app.remembr.io"><i class="fa fa-sign-in"></i> Login</a></li>
                     <li><a href="https://app.remembr.io/newaccount" class="btn">New Account</a></li>
+                    <li><a href="https://github.com/dipl-me/remembr.io/" target="_blank"><i class="fa fa-github"></i></a></li>
+
                 </ul>
             </div>
         </div>
@@ -70,6 +72,7 @@
 
                 <div class="cta-btn"> 
                     <a id="loginbutton" class="btn">Login</a>
+                    <p>or create a <a href="https://app.remembr.io/newaccount">new account</a></p>
                 </div>
             </div>
         </div>
@@ -109,13 +112,20 @@ Featured on end-->
 <section class="benefits section-spacing text-center" id="features">
     <div class="container">
         <header class="section-header">
-            <h2>Store your documents forever</h2>
+            <h2>Timestamp your documents or store your messages forever</h2>
             <h3>Choose the Blockchain power to secure your documents</h3>
+            <p> </p>
+            <p style="text-align:justify">Sometimes you want to prove that a certain event happened before a certain point in time. You could use a trusted authority, which is costly and takes a lot of time. Or you could simply use the <b>bitcoin blockchain</b>. It is fast and nearly free.</p> 
+<p style="text-align:justify">It’s a simple principe: you send a transaction in the bitcoin network and add a comment in your transaction (via the OP_RETURN script). You have just to send the fees of transaction (0,00005 btc). The comment could be a clear message, an encrypted message or the digest of a document. </p>
+<p style="text-align:justify">A digest is a cryptographic hash function generate from your file which is impossible to invert. The digest of a document would always be the same until you don’t modify or save it again. This is the proof that your file was exactly the same as it is today.</p>
+<p style="text-align:justify">In embedding the digest in the bitcoin blockchain you create a timestamping which is irrefragable.</p>
         </header>
         <div class="row">
             <div class="col-sm-4"> <img src="img/ben1_secure.png" alt="benefits of product">
                 <h4>Secure</h4>
                 <p>The blockchain technology is based on an incorruptible database distributed on Peer-to-Peer network</p>
+                <p> </p>
+                <p> </p>
             </div>
             <div class="col-sm-4"> <img src="img/ben2_blockchain.png" alt="benefits of product">
                 <h4>Blockchain technology</h4>
@@ -123,9 +133,14 @@ Featured on end-->
             </div>
             <div class="col-sm-4"> <img src="img/ben3_wificloud.png" alt="benefits of product">
                 <h4>Available</h4>
-                <p>Whith a simple internet connexion!</p>
+                <p>With a simple internet connexion!</p>
             </div>
         </div>
+        <header class="section-header">
+            <p> <br> <br></p>
+            <h3>Try our <a href="http://demo.remembr.io/home/">demo</a> account</h3>
+            <p> </p>
+        </header>
     </div>
 </section>
 
@@ -133,50 +148,56 @@ Featured on end-->
 
 <!--Online Solution-->
 
-<section class="benefits section-spacing text-center" id="features">
+<section class="benefits section-spacing text-center" id="online">
     <div class="container">
         <header class="section-header">
             <h2>remembr.io online application</h2>
             <h3>An online solution to secure what is important for you</h3>
         </header>
         <div class="row">
-            <div class="col-sm-4"> <i class="fa fa-5x fa-rocket"></i>
+            <div class="col-sm-4"> <img src="img/icon-tablet-easy.png">
                 <h4>Easy</h4>
-                <p>Access your messages and send certificates from</p>
+                <p>The knowledge in cryptography and blockchain technology is not mastered by everyone.</p>
+                <p>That’s why we design a tool box easy to use. You just need to know how send a few bitcoins to your bitcoin adress created here.</p>
             </div>
-            <div class="col-sm-4"> <i class="fa fa-5x fa-rocket"></i>
+            <div class="col-sm-4"> <img src="img/piggy-bank-green.png">
                 <h4>Free</h4>
-                <p>remember.io won't charge you, and never will</p>
+                <p>remembr.io don’t charge you and will never do it. Consequently, you have just to bear the transaction fees, i.e. 0,00005 BTC.</p>
             </div>
-            <div class="col-sm-4"> <i class="fa fa-5x fa-object-ungroup"></i>
+            <div class="col-sm-4"> <img src="img/icon-decentralized-security.png">
                 <h4>Decentralized</h4>
-                <p>Nothing is hosted on the remembr.io servers, and every action happen on your browser.</p>
+                <p>Nothing is hosted in the remembr.io servers and every action happen on your browser. You are the sole holder of your bitcoin adress and yourprivate key (don’t forget them!).</p>
             </div>
         </div>
+        <header class="section-header">
+            <p> <br> <br></p>
+            <h3>Try our <a href="http://demo.remembr.io/home/">demo</a> account</h3>
+            <p> </p>
+        </header>
     </div>
 </section>
 
 <!--Online end-->
 
 
-<!--Online Solution-->
+<!--Server Solution-->
 
-<section class="benefits section-spacing text-center" id="features">
+<section class="benefits section-spacing text-center" id="server">
     <div class="container">
         <header class="section-header">
             <h2>remembr.io server</h2>
             <h3>Bring remember.io to your own server (personal / enterprise)</h3>
         </header>
         <div class="row">
-            <div class="col-sm-4"> <i class="fa fa-5x fa-rocket"></i>
+            <div class="col-sm-4"> <img src="img/icon-security_vault.png">
                 <h4>Keep your precious</h4>
                 <p>Don't let other people host your confidentials ressources, keep it on your server</p>
             </div>
-            <div class="col-sm-4"> <i class="fa fa-5x fa-rocket"></i>
+            <div class="col-sm-4"> <img src="img/rmbr_for_business.png">
                 <h4>For your company</h4>
-                <p>Create any accounts needed for your employess</p>
+                <p>Create any accounts needed for your employees</p>
             </div>
-            <div class="col-sm-4"> <i class="fa fa-5x fa-object-ungroup"></i>
+            <div class="col-sm-4"> <img src="img/icon_certificate_easy.png">
                 <h4>Certification is easy</h4>
                 <p>Useful tools to let you certify with ease.</p>
             </div>
@@ -187,12 +208,12 @@ Featured on end-->
 <!--Online end--> 
  
 
-<!--Features-->
+<!--Features
 
 <div class="features section-spacing">
     <div class="container"> 
         
-        <!--feature 1-->
+        -feature 1-
         
         <div class="row">
             <div class="col-md-7 col-md-push-5 text-center"> <img src="img/feature-1.png" alt="feature"> </div>
@@ -209,9 +230,9 @@ Featured on end-->
             </div>
         </div>
         
-        <!--feature 1 end--> 
+        -feature 1 end-
         
-        <!--feature 2-->
+        -feature 2-
         <div class="row">
             <div class="col-md-7 text-center"> <img src="img/feature-2.png" alt="feature"> </div>
             <div class="col-md-5">
@@ -226,9 +247,9 @@ Featured on end-->
                 </article>
             </div>
         </div>
-        <!--feature 2 end--> 
+        -feature 2 end-
         
-        <!--feature 3-->
+        -feature 3-
         <div class="row">
             <div class="col-md-7 col-md-push-5 text-center"> <img src="img/feature-3.png" alt="feature"> </div>
             <div class="col-md-5 col-md-pull-7">
@@ -243,31 +264,31 @@ Featured on end-->
                 </article>
             </div>
         </div>
-        <!--feature 3 end--> 
+        -feature 3 end-
     </div>
 </div>
 
-<!--Features end--> 
+Features end--> 
 
-<!--Video section-->
+<!--Video section
 
 <section class="video-tour text-center">
     <div class="play-btn"> <a href="https://vimeo.com/109054393" class="play litebox-tour"><img src="img/play-btn-vs.png" alt="play"></a>
         <h2>Video Preview Of Product</h2>
     </div>
     
-    <!--HTML5 Video-->
+    -HTML5 Video-
     <video autoplay loop muted id="bgvid" poster="video/poster.jpg">
         <source src="video/vb.mp4" type="video/mp4">
         <source src="video/vb.webm" type="video/webm">
     </video>
-    <!--HTML5 Video end--> 
+    -HTML5 Video end-
     
 </section>
 
-<!--Video section end--> 
+Video section end-->
 
-<!--Tour-->
+<!--Tour
 
 <section class="tour section-spacing text-center">
     <div class="container">
@@ -279,9 +300,9 @@ Featured on end-->
     </div>
 </section>
 
-<!--Tour end--> 
+Tour end--> 
 
-<!--reviews-->
+<!--reviews
 
 <section class="reviews section-spacing" id="reviews">
     <div class="container">
@@ -292,45 +313,45 @@ Featured on end-->
         <div class="row">
             <div class="col-sm-4"> 
                 
-                <!--review 1-->
+                -review 1-
                 
                 <figure class="text-center"><img src="img/review-1.jpg" alt="face" class="img-circle"> </figure>
                 <blockquote>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, repellat, voluptatem eveniet et illum itaque excepturi repudiandae officiis quibusdam deleniti. </p>
                     <cite>— Ashley Doe, CEO Abc Organisation</cite> </blockquote>
                 
-                <!--review 1 end--> 
+                -review 1 end-
                 
             </div>
             <div class="col-sm-4"> 
                 
-                <!--review 2-->
+                -review 2-
                 
                 <figure class="text-center"><img src="img/review-2.jpg" alt="face" class="img-circle"> </figure>
                 <blockquote>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, repellat, voluptatem eveniet et illum itaque excepturi repudiandae officiis quibusdam deleniti. </p>
                     <cite>— John Doe, CEO Abc Organisation</cite> </blockquote>
                 
-                <!--review 2 end--> 
+                -review 2 end-
                 
             </div>
             <div class="col-sm-4"> 
                 
-                <!--review 3-->
+                -review 3-
                 
                 <figure class="text-center"><img src="img/review-3.jpg" alt="face" class="img-circle"> </figure>
                 <blockquote>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, repellat, voluptatem eveniet et illum itaque excepturi repudiandae officiis quibusdam deleniti. </p>
                     <cite>— Michael Doe, CEO Xyz Organisation</cite> </blockquote>
                 
-                <!--review 3 end--> 
+                -review 3 end-
                 
             </div>
         </div>
     </div>
 </section>
 
-<!--reviews end--> 
+reviews end--> 
 
 <!--Pricing-->
 
@@ -346,20 +367,66 @@ Featured on end-->
                 <div class="plan">
                     <div class="plan-details">
                         <div class="header">
-                            <h4>Only one price !</h4>
+                            <h4>Online</h4>
                         </div>
-                        <div class="price"> <span class="currency">µBTC</span><span class="price-amount">50 </span><span class="period"> / actions</span> </div>
+                        <div class="price"> <span class="price-amount">Free </span><span class="currency">*</span><span class="period"></span> </div>
                         <ul class="plan-features">
                             <li><span>Documents digest</span><i class="fa fa-check"></i></li>
                             <li><span>Encrypted messages</span> <i class="fa fa-check"></i></li>
                             <li><span>Eternity wall</span><i class="fa fa-check"></i></li>
+                            <li><span><p> </p></span><i></i></li>
+                            <li><span><p> </p></span><i></i></li>
                         </ul>
                     </div>
-                    <div class="buy-button"><a class="btn" href="https://app.remembr.io/newaccount">New account</a>
-                        <p>Never less, but never more too!</p>
+                    <div class="buy-button"><a class="btn" href=#>Start</a>
+                        <p>* just pay bitcoin transaction fees: 50µBTC.</p>
+                    </div>
+                </div>
+                <!--PRICE TABLE END-->
+                
+                <!--PRICE TABLE-->
+                <div class="plan">
+                    <div class="plan-details">
+                        <div class="header">
+                            <h4>Hosted</h4>
+                        </div>
+                        <div class="price"> <span class="currency"></span><span class="price-amount">Donate</span><span class="period"></span> </div>
+                        <ul class="plan-features">
+                            <li><span>Documents digest</span><i class="fa fa-check"></i></li>
+                            <li><span>Encrypted messages</span> <i class="fa fa-check"></i></li>
+                            <li><span>Eternity wall</span><i class="fa fa-check"></i></li>
+                            <li><span>On your server</span><i class="fa fa-check"></i></li>
+                            <li><span><p> </p></span><i></i></li>
+                        </ul>
+                    </div>
+                    <div class="buy-button"><a class="btn" href="https://github.com/dipl-me/remembr.io/">Download</a>
+                        <p>Create you own!</p>
                     </div>
                 </div>
                 <!--PRICE TABLE END-->                 
+
+                <!--PRICE TABLE-->
+                <div class="plan">
+                    <div class="plan-details">
+                        <div class="header">
+                            <h4>Business</h4>
+                        </div>
+                        <div class="price"> <span class="currency"></span><span class="price-amount">Custom</span><span class="period"></span> </div>
+                        <ul class="plan-features">
+                            <li><span>Documents digest</span><i class="fa fa-check"></i></li>
+                            <li><span>Encrypted messages</span> <i class="fa fa-check"></i></li>
+                            <li><span>Eternity wall</span><i class="fa fa-check"></i></li>
+                            <li><span>On your server</span><i class="fa fa-check"></i></li>
+                            <li><span>Personalized</span><i class="fa fa-check"></i></li>
+                        </ul>
+                    </div>
+                    <div class="buy-button"><a href="mailto:contact@remembr.io" class="btn">Contact us</a>
+                        <p>Let us create your own!</p>
+                    </div>
+                </div>
+                <!--PRICE TABLE END-->                 
+
+                                 
             </div>
         </div>
     </div>
@@ -367,7 +434,7 @@ Featured on end-->
 
 <!--Pricing end--> 
 
-<!--cta section-->
+<!--cta section
 
 <section class="cta-section section-spacing text-center">
     <div class="container">
@@ -383,9 +450,9 @@ Featured on end-->
     </div>
 </section>
 
-<!--cta section end--> 
+cta section end--> 
 
-<!--Team-->
+<!--Team
 
 <section class="team section-spacing text-center" id="team">
     <div class="container">
@@ -401,14 +468,14 @@ Featured on end-->
                             <div>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit rutrum eleifend arcu. Lorem ipsum dolor sit amet consectetur.</p>
                                 
-                                <!--social-->
+                                -social-
                                 
                                 <ul class="social">
                                     <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
                                     <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
                                 </ul>
                                 
-                                <!--social end--> 
+                                -social end-
                                 
                             </div>
                         </figcaption>
@@ -426,14 +493,14 @@ Featured on end-->
                             <div>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit rutrum eleifend arcu. Lorem ipsum dolor sit amet consectetur.</p>
                                 
-                                <!--social-->
+                                -social-
                                 
                                 <ul class="social">
                                     <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
                                     <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
                                 </ul>
                                 
-                                <!--social end--> 
+                                -social end-
                                 
                             </div>
                         </figcaption>
@@ -451,14 +518,14 @@ Featured on end-->
                             <div>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit rutrum eleifend arcu. Lorem ipsum dolor sit amet consectetur.</p>
                                 
-                                <!--social-->
+                                -social-
                                 
                                 <ul class="social">
                                     <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
                                     <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
                                 </ul>
                                 
-                                <!--social end--> 
+                                -social end-
                                 
                             </div>
                         </figcaption>
@@ -473,9 +540,9 @@ Featured on end-->
     </div>
 </section>
 
-<!--Team end--> 
+Team end--> 
 
-<!--Twitter feed -->
+<!--Twitter feed 
 
 <div class="twitter-feed section-spacing text-center">
     <div class="container">
@@ -488,7 +555,7 @@ Featured on end-->
     </div>
 </div>
 
-<!--Twitter feed end --> 
+Twitter feed end --> 
 
 <!--contact us-->
 
@@ -497,20 +564,23 @@ Featured on end-->
         <header class="section-header">
             <h2>Contact Us</h2>
             <h3>Have any questions? Get in touch</h3>
+            <p> </p>
+            <p><a href="mailto:contact@remembr.io" class="btn">contact@remembr.io</a></p>
+			
         </header>
     </div>
     
-    <!--map-->
+    <!--map
     <div class="map">
         <div id="map-canvas"></div>
     </div>
-    <!--map end--> 
+    map end--> 
     
 </section>
 
 <!--contact us end--> 
 
-<!--sub-form-->
+<!--sub-form
 <section class="sub-form section-spacing text-center">
     <div class="container">
         <header class="section-header">
@@ -531,7 +601,7 @@ Featured on end-->
         </div>
     </div>
 </section>
-<!--sub-form end--> 
+sub-form end--> 
 
 <!--site-footer-->
 <footer class="site-footer section-spacing text-center">
