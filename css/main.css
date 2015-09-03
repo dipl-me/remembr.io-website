@@ -466,7 +466,7 @@ transform:translateY(0);
 
 .plan {
   background-color: #fff;
-  width: 350px;
+  width: 325px;
   display: inline-block;
   margin: 0 0 1.5em;
   max-width: 100%;
@@ -484,7 +484,7 @@ transform:translateY(0);
 }
 
 .price {
-  background-color: #3cb771;
+  background-color: #38b872;
   color: #fff;
 }
 
@@ -990,7 +990,7 @@ blockquote::before {
 
 .plan {
   margin: 0 1.5em 0;
-  width: 350px;
+  width: 325px;
 }
 
 blockquote { padding: 0 0 0 3em; }
