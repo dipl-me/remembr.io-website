@@ -263,6 +263,12 @@ transform:translateY(0);
 }
 }
 
+.github-icon {
+    font-size: 36px;
+    padding: 5px !important;
+    padding-left: 15px !important;
+}
+
 /* ==========================================================================
    4.Play button
    ========================================================================== */
