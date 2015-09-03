@@ -481,15 +481,28 @@ transform:translateY(0);
 .plan .header h4 {
   font-size: 21px;
   margin: 0;
+  color: #38b872;
 }
 
 .price {
-  background-color: #38b872;
+  background-color: #5B43A2;
   color: #fff;
 }
 
+.price.green {
+  background-color: #38b872;
+}
+
+.price.blue, .btn.blue {
+  background-color: #435FA2;
+}
+
+.btn.blue:hover, .btn.blue:focus, .btn.blue.focus {
+  background-color: #586C9C;
+}
+
 .price-amount {
-  font-size: 90px;
+  font-size: 80px;
   line-height: 1;
 }
 
@@ -512,7 +525,7 @@ transform:translateY(0);
 
 .plan-features li i {
   padding-left: .5em;
-  color: #f56363;
+  color: #38b872;
 }
 
 .buy-button { padding-bottom: 1.5em; }
